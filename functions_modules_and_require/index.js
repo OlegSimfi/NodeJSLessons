@@ -1,4 +1,4 @@
-const array_counter = require('./array');
+const things = require('./things');
 
 function test() {
     console.log("Hello!")
@@ -16,4 +16,6 @@ const printSomething = function () {
 
 call(printSomething);
 
-console.log(array_counter([1,7,8,9,11]));
+console.log(things.array_counter([1,7,8,9,11]));
+console.log(things.some_value);
+console.log(things.multiply(5, 7));
