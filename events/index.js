@@ -28,7 +28,7 @@ cars.forEach(function (car) {
     });
 });
 
-bmw.emit('speed','254.5 km');
-audi.emit('speed','270.5 km');
-volvo.emit('speed','25480.5 km');
+bmw.emit('speed','254.5 km/h');
+audi.emit('speed','270.5 km/h');
+volvo.emit('speed','25480.5 km/h');
 
